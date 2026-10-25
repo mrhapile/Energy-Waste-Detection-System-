@@ -123,3 +123,15 @@ Retries, timeouts, and follow-up scheduling will help the workflow handle failur
 **Move beyond energy monitoring to actionable energy management.**
 
 The goal is to build a system that detects potential energy waste, investigates its probable causes, coordinates corrective actions, and verifies whether the problem has been resolved.
+
+## Run Locally
+
+**Prerequisites:** Node.js
+
+1. Install dependencies:
+   `npm install`
+2. Set the `GEMINI_API_KEY` in `.env.local` to your Gemini API key.
+3. Run the app:
+   `npm run dev`
+
+View the app in AI Studio: https://ai.studio/apps/1e8bc730-b1aa-4687-82bb-51f3403bc9cf
